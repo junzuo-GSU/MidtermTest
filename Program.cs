@@ -18,6 +18,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+//allow the application to use the resources in wwwroot
 app.MapStaticAssets();
 
 app.MapControllerRoute(
